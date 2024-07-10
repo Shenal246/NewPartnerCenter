@@ -2,6 +2,8 @@ import logo from './logo.svg';
 import './App.css';
 import SmCard from './Components/Public/SmCard/SmCard';
 import ChartCard from './Components/Public/ChartCard/ChartCard';
+import Progress from './Components/Public/Progress/Progress';
+
 
 function App() {
   const data = [
@@ -15,6 +17,7 @@ function App() {
     <div className="App">
       <SmCard width='160px' height='160px' topic='Sample Card' value='20' />
       <ChartCard width="250px" height="300px" topic="Request Status" dataArray={data} />
+      <Progress width="34vh" height="10vh" topic="Total Partners" value={"69"} />
     </div>
   );
 }
