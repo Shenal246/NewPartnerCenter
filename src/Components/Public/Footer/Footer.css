@@ -1,0 +1,70 @@
+.footer {
+    width: 170vh;
+    background-color: white;
+    height: 7vh;
+    margin: 1.5vh;
+    border-radius: 2vh;
+    position: fixed;
+    left: 30vh;
+    bottom: 0vh;
+    box-shadow: 0 3px 6px rgba(0, 0, 0, 0.1);
+    display: inline-flex;
+}
+
+.footerButton1 {
+    width: 10vh;
+    height: 5vh;
+    background-color: rgb(53, 190, 19);
+    border-radius: 2vh 0vh 0vh 2vh;
+    border: none;
+    color: white;
+}
+
+.footerButton1:hover {
+    background-color: rgb(43, 153, 15);
+    cursor: pointer;
+
+}
+
+.footerButton2 {
+    width: 10vh;
+    height: 5vh;
+    background-color: rgb(10, 192, 192);
+    border: none;
+    color: white;
+}
+
+.footerButton2:hover {
+    background-color: rgb(8, 145, 145);
+    cursor: pointer;
+}
+
+.footerButton3 {
+    width: 10vh;
+    height: 5vh;
+    background-color: rgb(189, 189, 189);
+    border-radius: 0vh 2vh 2vh 0vh;
+    border: none;
+    color: white;
+}
+
+.footerButton3:hover {
+    background-color: rgb(143, 143, 143);
+    cursor: pointer;
+
+}
+
+.footerButtonGroup {
+    /* display: inline; */
+    margin-top: 1vh !important;
+    margin-left: 60vh;
+}
+
+.footereicon1 {
+    font-size: 3vh;
+    font-weight: 5vh;
+}
+
+.footerText{
+    margin-left: 2vh ;
+}

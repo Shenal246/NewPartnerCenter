@@ -21,16 +21,23 @@ const ChartCard = ({ width, height, topic, dataArray }) => {
     return (
         <>
             <div className="reusableChartcard" style={{ width, height }}>
-                <h3 className="reusableChartcard-topic">{topic}</h3>
-                <div>
-                    <Chart
-                        chartType="PieChart"
-                        width={width}
-                        height={height}
-                        data={dataArray}
-                        options={options}
-                    />
+                {/* <div className='row'><h3 className="reusableChartcard-topic">{topic}</h3></div> */}
+                <div className='row'>
+                    <h3 className="reusableChartcard-topic">{topic}</h3>
+                    <div className='chartContainer'>
+                        <Chart
+                            chartType="PieChart"
+                            width={width}
+                            height={height}
+                            data={dataArray}
+                            options={options}
+                        />
+                    </div>
                 </div>
+
+
+
+
             </div>
         </>
     );

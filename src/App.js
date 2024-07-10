@@ -1,7 +1,8 @@
-import logo from './logo.svg';
+
 import './App.css';
 import SmCard from './Components/Public/SmCard/SmCard';
 import ChartCard from './Components/Public/ChartCard/ChartCard';
+import Footer from './Components/Public/Footer/Footer'
 
 function App() {
   const data = [
@@ -15,6 +16,7 @@ function App() {
     <div className="App">
       <SmCard width='160px' height='160px' topic='Sample Card' value='20' />
       <ChartCard width="250px" height="300px" topic="Request Status" dataArray={data} />
+      <Footer/>
     </div>
   );
 }
